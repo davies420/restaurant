@@ -3,18 +3,40 @@
     padding: 0;
     text-decoration: 0;
 }
+header{
+    background-color: rgb(252, 241, 230);
+}
+h1{
+    padding-top:7%;
+}
 nav{
     display: none;
 }
 .wasted{
     display: none ;
 }
-svg.able{
-    display: flex;
-    justify-content: space-between;
-}
 .equal{
    width: 300px; 
+}
+svg{
+    float: right;
+    padding: 10px;
+    padding-top: 7%;
+}
+.think{
+    padding: 10px 10px;
+}
+#hobby{
+    background-image: linear-gradient(to right, rgb(241, 192, 99), rgb(246, 252, 196), rgb(250, 182, 54));
+}
+.oi{
+     background-color: antiquewhite;
+    color:rgb(248, 71, 47);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px 10px;
 }
 @media screen and (min-width: 700px) {
 body{
@@ -23,6 +45,9 @@ body{
     opacity: calc(0.9);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+nav{
+    display: contents;
 }
 .penny{
     background-color: rgb(246, 252, 196);
@@ -48,6 +73,9 @@ h1{
     grid-template-columns: auto auto auto;
     grid-gap: 90px;
 }
+.wasted{
+    display: contents;
+}
 a:hover{
     color: blue;
     background-color: rgb(248, 71, 47);
@@ -57,7 +85,8 @@ em:hover{
     background-color: rgb(189, 79, 52);
     transition: 0.5s;
 }
-span{background-color: antiquewhite;
+span{
+    background-color: antiquewhite;
     color:rgb(248, 71, 47);
     border-radius: 35px;
 
@@ -76,4 +105,14 @@ span{background-color: antiquewhite;
     justify-content: space-evenly;
     align-items: center;
     /* padding-top:10px; */
+}
+.equal{
+    width: 500px;
+}
+.able{
+    display: none;
+}
+.wasted{
+    display: block;
+}
 }
